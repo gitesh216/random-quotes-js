@@ -21,4 +21,4 @@ The app allows users to:
 
 ## 🌍 Live Demo
 
-🔗 **[View Live Demo](https://your-deployment-link.com)**  
+🔗 **[View Live Demo](https://random-quotes-js-opal.vercel.app/)**  
