@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Quotes</title>
+</head>
+<body>
+    <header>
+        <h1>Get Random Quotes</h1>
+    </header>
+    <div class="quote-container">
+        <img id="quote-bgImg" src="test.JPG" alt="" height="100px" crossorigin="anonymous">
+        <div class="overlay-text">
+            <p id="quote-text"></p>
+        <p id="quote-author"></p>
+        <button id="copy-clipboard-btn">Copy</button>
+        </div>
+    </div>
+    <div class="utilities">
+        <button class="utilityBtn" id="newQuoteBtn">New Quote</button>
+        <button class="utilityBtn" id="twitterBtn">Share to Twitter</button>
+        <button class="utilityBtn" id="exportBtn">Export</button>
+        <canvas id="canvas" style="display: none;"></canvas>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
